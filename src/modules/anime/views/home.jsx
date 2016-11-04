@@ -23,6 +23,11 @@ const Home = React.createClass({
                         3d-transforms
                     </ItemTitle>
                 </ItemCell>
+                <ItemCell link={{params:['anime','colors']}} onClickLink={this.onClickLink}>
+                    <ItemTitle>
+                        colors
+                    </ItemTitle>
+                </ItemCell>
             </List>
 
         )

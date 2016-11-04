@@ -42,9 +42,8 @@ const Transforms3d = React.createClass({
     },
     render() {
         return (
-            <div className='wrapper'>
+            <div className='wrapper Transforms3d'>
             </div>
-
         )
     }
 

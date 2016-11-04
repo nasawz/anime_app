@@ -7,6 +7,7 @@ import {RouterMixin} from 'react-mini-router'
 import Container from '../../common/container.jsx'
 import Home from '../containers/homeContainer.js'
 import Transforms3d from '../containers/transforms3dContainer.js'
+import Colors from '../containers/colorsContainer.js'
 
 const Routes = React.createClass({
     mixins: [RouterMixin],
@@ -21,6 +22,7 @@ const Routes = React.createClass({
     routes: {
         '/home': 'home',
         '/transforms3d': 'transforms3d',
+        '/colors': 'colors',
     },
     render () {
         return (
@@ -34,6 +36,9 @@ const Routes = React.createClass({
     },
     transforms3d(params) {
         return <div><Transforms3d params={params} /></div>
+    },
+    colors(params) {
+        return <div><Colors params={params} /></div>
     },
     notFound(path) {
         if (path == '/') {

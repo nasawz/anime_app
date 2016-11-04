@@ -8,6 +8,7 @@ import Container from '../../common/container.jsx'
 import Home from '../containers/homeContainer.js'
 import Transforms3d from '../containers/transforms3dContainer.js'
 import Colors from '../containers/colorsContainer.js'
+import Domstress from '../containers/domstressContainer.js'
 
 const Routes = React.createClass({
     mixins: [RouterMixin],
@@ -23,6 +24,7 @@ const Routes = React.createClass({
         '/home': 'home',
         '/transforms3d': 'transforms3d',
         '/colors': 'colors',
+        '/domstress': 'domstress',
     },
     render () {
         return (
@@ -39,6 +41,9 @@ const Routes = React.createClass({
     },
     colors(params) {
         return <div><Colors params={params} /></div>
+    },
+    domstress(params) {
+        return <div><Domstress params={params} /></div>
     },
     notFound(path) {
         if (path == '/') {

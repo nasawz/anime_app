@@ -20,12 +20,17 @@ const Home = React.createClass({
             <List>
                 <ItemCell link={{params:['anime','transforms3d']}} onClickLink={this.onClickLink}>
                     <ItemTitle>
-                        3d-transforms
+                        3D变形
                     </ItemTitle>
                 </ItemCell>
                 <ItemCell link={{params:['anime','colors']}} onClickLink={this.onClickLink}>
                     <ItemTitle>
-                        colors
+                        颜色
+                    </ItemTitle>
+                </ItemCell>
+                <ItemCell link={{params:['anime','domstress']}} onClickLink={this.onClickLink}>
+                    <ItemTitle>
+                        DOM压力测试
                     </ItemTitle>
                 </ItemCell>
             </List>

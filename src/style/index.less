@@ -3,3 +3,41 @@
 body {
     background: #FFF;
 }
+
+.wrapper {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    perspective: 800px;
+    transform-style: preserve-3d;
+    perspective-origin: 50% 50%;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+
+    div {
+        width: 2em;
+        height: 2em;
+    }
+}
+
+.red {
+    background-color: #FF324A;
+}
+
+.green {
+    background-color: #31FFA6;
+}
+
+.blue {
+    background-color: #206EFF;
+}
+
+.yellow {
+    background-color: #FFFF99;
+}

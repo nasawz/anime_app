@@ -1,0 +1,40 @@
+{
+    "dev": {
+        "title": "anime-transforms3d",
+        "filename": "anime-transforms3d",
+        "chunks": {
+            "vendor": {
+                "attr": {
+                    "js": "",
+                    "css": ""
+                }
+            },
+            "anime-transforms3d": {
+                "attr": {
+                    "js": "",
+                    "css": ""
+                }
+            }
+        }
+    },
+    "pub": {
+        "title": "anime-transforms3d",
+        "filename": "anime-transforms3d",
+        "chunks": {
+            "libs/react": null,
+            "libs/react-dom": null,
+            "vendor": {
+                "attr": {
+                    "js": "",
+                    "css": ""
+                }
+            },
+            "anime-transforms3d": {
+                "attr": {
+                    "js": "",
+                    "css": ""
+                }
+            }
+        }
+    }
+}

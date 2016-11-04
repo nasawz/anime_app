@@ -3,6 +3,7 @@
         "title":"anime-home",
         "filename":"anime-home",
         "chunks":{
+            "libs/anime": null,
             "vendor":{
                 "attr":{
                     "js":"",
@@ -23,6 +24,7 @@
         "chunks":{
             "libs/react": null,
             "libs/react-dom": null,
+            "libs/anime": null,
             "vendor":{
                 "attr":{
                     "js":"",

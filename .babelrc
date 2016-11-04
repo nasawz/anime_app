@@ -1,0 +1,9 @@
+{
+  "plugins": ["transform-runtime"],
+  "presets": [ "es2015-loose", "stage-0", "react"],
+  "env": {
+    "build": {
+      "optional": ["optimisation", "minification"]
+    }
+  }
+}

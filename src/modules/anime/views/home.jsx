@@ -33,6 +33,11 @@ const Home = React.createClass({
                         DOM压力测试
                     </ItemTitle>
                 </ItemCell>
+                <ItemCell link={{params:['anime','easings']}} onClickLink={this.onClickLink}>
+                    <ItemTitle>
+                        缓动
+                    </ItemTitle>
+                </ItemCell>
             </List>
 
         )

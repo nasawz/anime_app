@@ -48,6 +48,11 @@ const Home = React.createClass({
                         外形变化
                     </ItemTitle>
                 </ItemCell>
+                <ItemCell link={{params:['anime','funcb']}} onClickLink={this.onClickLink}>
+                    <ItemTitle>
+                        函数回调
+                    </ItemTitle>
+                </ItemCell>
             </List>
 
         )

@@ -1,0 +1,40 @@
+{
+    "dev": {
+        "title": "anime-funcb",
+        "filename": "anime-funcb",
+        "chunks": {
+            "vendor": {
+                "attr": {
+                    "js": "",
+                    "css": ""
+                }
+            },
+            "anime-funcb": {
+                "attr": {
+                    "js": "",
+                    "css": ""
+                }
+            }
+        }
+    },
+    "pub": {
+        "title": "anime-funcb",
+        "filename": "anime-funcb",
+        "chunks": {
+            "libs/react": null,
+            "libs/react-dom": null,
+            "vendor": {
+                "attr": {
+                    "js": "",
+                    "css": ""
+                }
+            },
+            "anime-funcb": {
+                "attr": {
+                    "js": "",
+                    "css": ""
+                }
+            }
+        }
+    }
+}

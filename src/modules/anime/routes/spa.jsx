@@ -12,6 +12,7 @@ import Domstress from '../containers/domstressContainer.js'
 import Easings from '../containers/easingsContainer.js'
 import Motionpath from '../containers/motionpathContainer.js'
 import Svgpath from '../containers/svgpathContainer.js'
+import Funcb from '../containers/funcbContainer.js'
 
 const Routes = React.createClass({
     mixins: [RouterMixin],
@@ -31,6 +32,7 @@ const Routes = React.createClass({
         '/easings': 'easings',
         '/motionpath': 'motionpath',
         '/svgpath': 'svgpath',
+        '/funcb': 'funcb',
     },
     render () {
         return (
@@ -59,6 +61,9 @@ const Routes = React.createClass({
     },
     svgpath(params) {
         return <div><Svgpath params={params} /></div>
+    },
+    funcb(params) {
+        return <div><Funcb params={params} /></div>
     },
     notFound(path) {
         if (path == '/') {

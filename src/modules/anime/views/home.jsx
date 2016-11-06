@@ -43,6 +43,11 @@ const Home = React.createClass({
                         指定运动轨迹
                     </ItemTitle>
                 </ItemCell>
+                <ItemCell link={{params:['anime','svgpath']}} onClickLink={this.onClickLink}>
+                    <ItemTitle>
+                        外形变化
+                    </ItemTitle>
+                </ItemCell>
             </List>
 
         )

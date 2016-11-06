@@ -1,0 +1,40 @@
+{
+    "dev": {
+        "title": "anime-motionpath",
+        "filename": "anime-motionpath",
+        "chunks": {
+            "vendor": {
+                "attr": {
+                    "js": "",
+                    "css": ""
+                }
+            },
+            "anime-motionpath": {
+                "attr": {
+                    "js": "",
+                    "css": ""
+                }
+            }
+        }
+    },
+    "pub": {
+        "title": "anime-motionpath",
+        "filename": "anime-motionpath",
+        "chunks": {
+            "libs/react": null,
+            "libs/react-dom": null,
+            "vendor": {
+                "attr": {
+                    "js": "",
+                    "css": ""
+                }
+            },
+            "anime-motionpath": {
+                "attr": {
+                    "js": "",
+                    "css": ""
+                }
+            }
+        }
+    }
+}

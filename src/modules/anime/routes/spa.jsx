@@ -10,6 +10,7 @@ import Transforms3d from '../containers/transforms3dContainer.js'
 import Colors from '../containers/colorsContainer.js'
 import Domstress from '../containers/domstressContainer.js'
 import Easings from '../containers/easingsContainer.js'
+import Motionpath from '../containers/motionpathContainer.js'
 
 const Routes = React.createClass({
     mixins: [RouterMixin],
@@ -27,6 +28,7 @@ const Routes = React.createClass({
         '/colors': 'colors',
         '/domstress': 'domstress',
         '/easings': 'easings',
+        '/motionpath': 'motionpath',
     },
     render () {
         return (
@@ -49,6 +51,9 @@ const Routes = React.createClass({
     },
     easings(params) {
         return <div><Easings params={params} /></div>
+    },
+    motionpath(params) {
+        return <div><Motionpath params={params} /></div>
     },
     notFound(path) {
         if (path == '/') {

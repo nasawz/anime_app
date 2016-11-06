@@ -38,6 +38,11 @@ const Home = React.createClass({
                         缓动
                     </ItemTitle>
                 </ItemCell>
+                <ItemCell link={{params:['anime','motionpath']}} onClickLink={this.onClickLink}>
+                    <ItemTitle>
+                        指定运动轨迹
+                    </ItemTitle>
+                </ItemCell>
             </List>
 
         )

@@ -6,7 +6,6 @@ import {RouterMixin} from 'react-mini-router'
 
 import Container from '../../common/container.jsx'
 import Home from '../containers/homeContainer.js'
-import Cylinder from '../containers/cylinderContainer.js'
 
 const Routes = React.createClass({
     mixins: [RouterMixin],
@@ -20,7 +19,6 @@ const Routes = React.createClass({
     },
     routes: {
         '/home': 'home',
-        '/cylinder': 'cylinder',
     },
     render () {
         return (
@@ -31,9 +29,6 @@ const Routes = React.createClass({
     },
     home(params) {
         return <div><Home params={params} /></div>
-    },
-    cylinder(params) {
-        return <div><Cylinder params={params} /></div>
     },
     notFound(path) {
         if (path == '/') {

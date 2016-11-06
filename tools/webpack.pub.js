@@ -148,7 +148,7 @@ prodConfig.addPlugins = function(plugin, opt) {
 }
 
 forEach(prodConfig.entry,function (value) {
-    let conf = require(value[0].replace(/(jsx|js)/g,'json'))
+    let conf = require(value[0].replace(/(jsx|js)$/g,'json'))
     prodConfig.addPlugins(HtmlResWebpackPlugin, {
         filename: conf.pub.filename + '.html',
         title:conf.pub.title,

@@ -136,6 +136,7 @@ var prodConfig = {
     externals: {
         'wx': 'window.wx',
         'animejs': 'anime',
+        'css3d': 'C3D',
         'react': 'React',
         'react-dom': 'ReactDOM',
     },

@@ -1,0 +1,42 @@
+{
+    "dev":{
+        "title":"css3d",
+        "filename":"css3d",
+        "chunks":{
+            "libs/css3d": null,
+            "vendor":{
+                "attr":{
+                    "js":"",
+                    "css":""
+                }
+            },
+            "css3d":{
+                "attr":{
+                    "js":"",
+                    "css":""
+                }
+            }
+        }
+    },
+    "pub":{
+        "title":"css3d",
+        "filename":"css3d",
+        "chunks":{
+            "libs/react": null,
+            "libs/react-dom": null,
+            "libs/css3d": null,
+            "vendor":{
+                "attr":{
+                    "js":"",
+                    "css":""
+                }
+            },
+            "css3d":{
+                "attr":{
+                    "js":"",
+                    "css":""
+                }
+            }
+        }
+    }
+}

@@ -53,6 +53,11 @@ const Home = React.createClass({
                         函数回调
                     </ItemTitle>
                 </ItemCell>
+                <ItemCell link={{params:['anime','removeanime']}} onClickLink={this.onClickLink}>
+                    <ItemTitle>
+                        移除动画
+                    </ItemTitle>
+                </ItemCell>
             </List>
 
         )

@@ -13,6 +13,7 @@ import Easings from '../containers/easingsContainer.js'
 import Motionpath from '../containers/motionpathContainer.js'
 import Svgpath from '../containers/svgpathContainer.js'
 import Funcb from '../containers/funcbContainer.js'
+import Removeanime from '../containers/removeanimeContainer.js'
 
 const Routes = React.createClass({
     mixins: [RouterMixin],
@@ -33,6 +34,7 @@ const Routes = React.createClass({
         '/motionpath': 'motionpath',
         '/svgpath': 'svgpath',
         '/funcb': 'funcb',
+        '/removeanime': 'removeanime',
     },
     render () {
         return (
@@ -64,6 +66,9 @@ const Routes = React.createClass({
     },
     funcb(params) {
         return <div><Funcb params={params} /></div>
+    },
+    removeanime(params) {
+        return <div><Removeanime params={params} /></div>
     },
     notFound(path) {
         if (path == '/') {

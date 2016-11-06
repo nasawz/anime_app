@@ -81,7 +81,7 @@ var prodConfig = {
     },
     plugins: [
         // remove previous pub folder
-        new Clean(['dist'], {root: path.resolve()}),
+        new Clean(['doc'], {root: path.resolve()}),
         // inject process.env.NODE_ENV so that it will recognize if (process.env.NODE_ENV === '__PROD__')
         new webpack.DefinePlugin({
             'process.env': {

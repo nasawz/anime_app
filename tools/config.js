@@ -17,7 +17,7 @@ var config = {
         path: {
             src: path.resolve(__basename, 'src'),
             dev: path.resolve(__basename, 'dev'),
-            pub: path.resolve(__basename, 'dist'),
+            pub: path.resolve(__basename, 'doc'),
         },
         defaultPath: '//localhost:'+port+'/',
         cdn: '',

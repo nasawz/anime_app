@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui" name="viewport" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no, email=no" name="format-detection" />
+    <title>{title}</title>
+</head>
+<body>
+	<div id="container"></div>
+</body>
+</html>

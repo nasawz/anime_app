@@ -23,6 +23,11 @@ const Home = React.createClass({
                         环形旋转
                     </ItemTitle>
                 </ItemCell>
+                <ItemCell link={{params:['css3d','pano']}} onClickLink={this.onClickLink}>
+                    <ItemTitle>
+                        内360
+                    </ItemTitle>
+                </ItemCell>
             </List>
 
         )

@@ -7,6 +7,7 @@ import {RouterMixin} from 'react-mini-router'
 import Container from '../../common/container.jsx'
 import Home from '../containers/homeContainer.js'
 import Cylinder from '../containers/cylinderContainer.js'
+import Pano from '../containers/panoContainer.js'
 
 const Routes = React.createClass({
     mixins: [RouterMixin],
@@ -21,6 +22,7 @@ const Routes = React.createClass({
     routes: {
         '/home': 'home',
         '/cylinder': 'cylinder',
+        '/pano': 'pano',
     },
     render () {
         return (
@@ -34,6 +36,9 @@ const Routes = React.createClass({
     },
     cylinder(params) {
         return <div><Cylinder params={params} /></div>
+    },
+    pano(params) {
+        return <div><Pano params={params} /></div>
     },
     notFound(path) {
         if (path == '/') {

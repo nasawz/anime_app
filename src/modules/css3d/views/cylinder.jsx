@@ -78,6 +78,7 @@ const Cylinder = React.createClass({
     },
     go() {
         this.pano.rotate(0, 0.4, 0).updateT()
+        // this.s.camera.rotate(0, 0.3, 0).updateT()
         this.requestAnimationFrame(this.go)
     },
     componentDidMount() {
@@ -102,7 +103,7 @@ const Cylinder = React.createClass({
     render() {
         return (
             <div>
-                
+
             </div>
         )
     }

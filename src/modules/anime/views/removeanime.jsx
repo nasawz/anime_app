@@ -51,9 +51,9 @@ const Removeanime = React.createClass({
             <div className='Removeanime'>
                 <section>
                     <article ref='article'>
-                        <div onClick={this.doDisable} className="blue"></div>
-                        <div onClick={this.doDisable} className="red"></div>
-                        <div onClick={this.doDisable} className="green"></div>
+                        <div onMouseMove={this.doDisable} className="blue"></div>
+                        <div onMouseMove={this.doDisable} className="red"></div>
+                        <div onMouseMove={this.doDisable} className="green"></div>
                     </article>
                 </section>
             </div>

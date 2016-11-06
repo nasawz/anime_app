@@ -3,6 +3,7 @@
         "title": "anime-removeanime",
         "filename": "anime-removeanime",
         "chunks": {
+            "libs/anime": null,
             "vendor": {
                 "attr": {
                     "js": "",
@@ -21,6 +22,7 @@
         "title": "anime-removeanime",
         "filename": "anime-removeanime",
         "chunks": {
+            "libs/anime": null,
             "libs/react": null,
             "libs/react-dom": null,
             "vendor": {

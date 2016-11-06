@@ -3,6 +3,7 @@
         "title": "css3d-cylinder",
         "filename": "css3d-cylinder",
         "chunks": {
+            "libs/css3d": null,
             "vendor": {
                 "attr": {
                     "js": "",
@@ -21,6 +22,7 @@
         "title": "css3d-cylinder",
         "filename": "css3d-cylinder",
         "chunks": {
+            "libs/css3d": null,
             "libs/react": null,
             "libs/react-dom": null,
             "vendor": {

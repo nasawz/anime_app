@@ -3,6 +3,7 @@
         "title": "css3d-pano",
         "filename": "css3d-pano",
         "chunks": {
+            "libs/css3d": null,
             "vendor": {
                 "attr": {
                     "js": "",
@@ -23,6 +24,7 @@
         "chunks": {
             "libs/react": null,
             "libs/react-dom": null,
+            "libs/css3d": null,
             "vendor": {
                 "attr": {
                     "js": "",

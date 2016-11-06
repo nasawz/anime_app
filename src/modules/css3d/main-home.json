@@ -3,6 +3,7 @@
         "title":"css3d-home",
         "filename":"css3d-home",
         "chunks":{
+            "libs/css3d": null,
             "vendor":{
                 "attr":{
                     "js":"",
@@ -18,6 +19,7 @@
         }
     },
     "pub":{
+        "libs/css3d": null,
         "title":"css3d-home",
         "filename":"css3d-home",
         "chunks":{

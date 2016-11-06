@@ -8,6 +8,7 @@ import Container from '../../common/container.jsx'
 import Home from '../containers/homeContainer.js'
 import Cylinder from '../containers/cylinderContainer.js'
 import Pano from '../containers/panoContainer.js'
+import Rubik from '../containers/rubikContainer.js'
 
 const Routes = React.createClass({
     mixins: [RouterMixin],
@@ -23,6 +24,7 @@ const Routes = React.createClass({
         '/home': 'home',
         '/cylinder': 'cylinder',
         '/pano': 'pano',
+        '/rubik': 'rubik',
     },
     render () {
         return (
@@ -39,6 +41,9 @@ const Routes = React.createClass({
     },
     pano(params) {
         return <div><Pano params={params} /></div>
+    },
+    rubik(params) {
+        return <div><Rubik params={params} /></div>
     },
     notFound(path) {
         if (path == '/') {

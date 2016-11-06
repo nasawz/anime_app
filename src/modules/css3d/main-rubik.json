@@ -1,16 +1,16 @@
 {
     "dev": {
-        "title": "anime-svgpath",
-        "filename": "anime-svgpath",
+        "title": "css3d-rubik",
+        "filename": "css3d-rubik",
         "chunks": {
-            "libs/anime": null,
+            "libs/css3d": null,
             "vendor": {
                 "attr": {
                     "js": "",
                     "css": ""
                 }
             },
-            "anime-svgpath": {
+            "css3d-rubik": {
                 "attr": {
                     "js": "",
                     "css": ""
@@ -19,10 +19,10 @@
         }
     },
     "pub": {
-        "title": "anime-svgpath",
-        "filename": "anime-svgpath",
+        "title": "css3d-rubik",
+        "filename": "css3d-rubik",
         "chunks": {
-            "libs/anime": null,
+            "libs/css3d": null,
             "libs/react": null,
             "libs/react-dom": null,
             "vendor": {
@@ -31,7 +31,7 @@
                     "css": ""
                 }
             },
-            "anime-svgpath": {
+            "css3d-rubik": {
                 "attr": {
                     "js": "",
                     "css": ""

@@ -28,6 +28,11 @@ const Home = React.createClass({
                         内360
                     </ItemTitle>
                 </ItemCell>
+                <ItemCell link={{params:['css3d','rubik']}} onClickLink={this.onClickLink}>
+                    <ItemTitle>
+                        魔方
+                    </ItemTitle>
+                </ItemCell>
             </List>
 
         )

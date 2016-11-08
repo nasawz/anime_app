@@ -1,0 +1,42 @@
+{
+    "dev": {
+        "title": "css3d-scene1",
+        "filename": "css3d-scene1",
+        "chunks": {
+            "libs/css3d": null,
+            "vendor": {
+                "attr": {
+                    "js": "",
+                    "css": ""
+                }
+            },
+            "css3d-scene1": {
+                "attr": {
+                    "js": "",
+                    "css": ""
+                }
+            }
+        }
+    },
+    "pub": {
+        "title": "css3d-scene1",
+        "filename": "css3d-scene1",
+        "chunks": {
+            "libs/css3d": null,
+            "libs/react": null,
+            "libs/react-dom": null,
+            "vendor": {
+                "attr": {
+                    "js": "",
+                    "css": ""
+                }
+            },
+            "css3d-scene1": {
+                "attr": {
+                    "js": "",
+                    "css": ""
+                }
+            }
+        }
+    }
+}

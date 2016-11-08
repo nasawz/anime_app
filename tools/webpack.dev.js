@@ -122,7 +122,7 @@ devConfig.addPlugins = function (plugin, opt) {
 }
 
 forEach(devConfig.entry, function (value) {
-    let conf = require(value[0].replace(/(jsx|js)/g, 'json'))
+    let conf = require(value[0].replace(/(jsx|js)$/g, 'json'))
     devConfig.addPlugins(HtmlResWebpackPlugin, {
         filename: conf.dev.filename + '.html',
         title: conf.dev.title,

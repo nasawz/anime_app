@@ -33,6 +33,21 @@ const Home = React.createClass({
                         魔方
                     </ItemTitle>
                 </ItemCell>
+                <ItemCell link={{params:['css3d','scene1']}} onClickLink={this.onClickLink}>
+                    <ItemTitle>
+                        场景1
+                    </ItemTitle>
+                </ItemCell>
+                <ItemCell link={{params:['css3d','scene2']}} onClickLink={this.onClickLink}>
+                    <ItemTitle>
+                        场景2
+                    </ItemTitle>
+                </ItemCell>
+                <ItemCell link={{params:['css3d','scene3']}} onClickLink={this.onClickLink}>
+                    <ItemTitle>
+                        场景3
+                    </ItemTitle>
+                </ItemCell>
             </List>
 
         )

@@ -9,6 +9,9 @@ import Home from '../containers/homeContainer.js'
 import Cylinder from '../containers/cylinderContainer.js'
 import Pano from '../containers/panoContainer.js'
 import Rubik from '../containers/rubikContainer.js'
+import Scene1 from '../containers/scene1Container.js'
+import Scene2 from '../containers/scene2Container.js'
+import Scene3 from '../containers/scene3Container.js'
 
 const Routes = React.createClass({
     mixins: [RouterMixin],
@@ -25,6 +28,9 @@ const Routes = React.createClass({
         '/cylinder': 'cylinder',
         '/pano': 'pano',
         '/rubik': 'rubik',
+        '/scene1': 'scene1',
+        '/scene2': 'scene2',
+        '/scene3': 'scene3',
     },
     render () {
         return (
@@ -44,6 +50,15 @@ const Routes = React.createClass({
     },
     rubik(params) {
         return <div><Rubik params={params} /></div>
+    },
+    scene1(params) {
+        return <div><Scene1 params={params} /></div>
+    },
+    scene2(params) {
+        return <div><Scene2 params={params} /></div>
+    },
+    scene3(params) {
+        return <div><Scene3 params={params} /></div>
     },
     notFound(path) {
         if (path == '/') {

@@ -48,6 +48,11 @@ const Home = React.createClass({
                         场景3
                     </ItemTitle>
                 </ItemCell>
+                <ItemCell link={{params:['css3d','tree']}} onClickLink={this.onClickLink}>
+                    <ItemTitle>
+                        圣诞树
+                    </ItemTitle>
+                </ItemCell>
             </List>
 
         )

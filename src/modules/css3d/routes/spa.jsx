@@ -12,6 +12,7 @@ import Rubik from '../containers/rubikContainer.js'
 import Scene1 from '../containers/scene1Container.js'
 import Scene2 from '../containers/scene2Container.js'
 import Scene3 from '../containers/scene3Container.js'
+import Tree from '../containers/treeContainer.js'
 
 const Routes = React.createClass({
     mixins: [RouterMixin],
@@ -31,6 +32,7 @@ const Routes = React.createClass({
         '/scene1': 'scene1',
         '/scene2': 'scene2',
         '/scene3': 'scene3',
+        '/tree': 'tree',
     },
     render () {
         return (
@@ -59,6 +61,9 @@ const Routes = React.createClass({
     },
     scene3(params) {
         return <div><Scene3 params={params} /></div>
+    },
+    tree(params) {
+        return <div><Tree params={params} /></div>
     },
     notFound(path) {
         if (path == '/') {
